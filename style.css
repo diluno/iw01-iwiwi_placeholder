@@ -1,0 +1,30 @@
+body {
+  background-color: #6400ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+.iwiwi__logo {
+  position: relative;
+  width: 30vw;
+}
+.iwiwi__logo svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.iwiwi__logo path, .iwiwi__logo polygon {
+  fill: #00FFDE;
+  /* transition: opacity .5s; */
+}
+.iwiwi__logo .hidden {
+  opacity: 0;
+}
+
+@media screen and (max-width: 500px) {
+  .iwiwi__logo {
+    width: 50vw;
+  }
+}
